@@ -1,0 +1,50 @@
+<archetype-descriptor name="spring-mvc"
+                      xmlns="http://maven.apache.org/plugins/maven-archetype-plugin/archetype-descriptor/1.0.0"
+                      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                      xsi:schemaLocation="http://maven.apache.org/plugins/maven-archetype-plugin/archetype-descriptor/1.0.0
+    http://maven.apache.org/xsd/archetype-descriptor-1.0.0.xsd">
+  <fileSets>
+    <fileSet filtered="true" packaged="true">
+      <directory>src/main/java</directory>
+      <includes>
+        <include>**/*.java</include>
+      </includes>
+    </fileSet>
+    <fileSet filtered="true">
+      <directory>src/main/resources</directory>
+    </fileSet>
+    <fileSet filtered="false" encoding="UTF-8">
+      <directory>src/main/webapp</directory>
+    </fileSet>
+    <fileSet filtered="true" packaged="true">
+      <directory>src/test/java</directory>
+      <includes>
+        <include>**/*.java</include>
+      </includes>
+    </fileSet>
+    <fileSet filtered="true">
+      <directory>src/test/resources</directory>
+    </fileSet>
+  </fileSets>
+</archetype-descriptor>
+
+
+<!--<archetype xmlns="http://maven.apache.org/plugins/maven-archetype-plugin/archetype/1.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"-->
+           <!--xsi:schemaLocation="http://maven.apache.org/plugins/maven-archetype-plugin/archetype/1.0.0 http://maven.apache.org/xsd/archetype-1.0.0.xsd">-->
+  <!--<id>spring-mvc-jpa</id>-->
+  <!--&lt;!&ndash;<sources>&ndash;&gt;-->
+    <!--&lt;!&ndash;<source>src/main/java/config/DataConfiguration</source>&ndash;&gt;-->
+    <!--&lt;!&ndash;<source>src/main/java/config/MvcConfiguration</source>&ndash;&gt;-->
+    <!--&lt;!&ndash;<source>src/main/java/controller/HomeController</source>&ndash;&gt;-->
+    <!--&lt;!&ndash;<source>src/main/java/entities/Person</source>&ndash;&gt;-->
+    <!--&lt;!&ndash;<source>src/main/java/repositories/PersonRepository</source>&ndash;&gt;-->
+    <!--&lt;!&ndash;<source>src/main/java/repositories/PersonRepository</source>&ndash;&gt;-->
+  <!--&lt;!&ndash;</sources>&ndash;&gt;-->
+  <!--&lt;!&ndash;<resources>&ndash;&gt;-->
+    <!--&lt;!&ndash;<resource>src/main/resource/application.properties</resource>&ndash;&gt;-->
+    <!--&lt;!&ndash;<resource>src/main/resource/db.sql</resource>&ndash;&gt;-->
+    <!--&lt;!&ndash;<resource>src/main/webapp/resources/style.css</resource>&ndash;&gt;-->
+    <!--&lt;!&ndash;<resource>src/main/webapp/WEB-INF/view/home.jsp</resource>&ndash;&gt;-->
+    <!--&lt;!&ndash;<resource>src/main/webapp/WEB-INF/web.xml</resource>&ndash;&gt;-->
+  <!--&lt;!&ndash;</resources>&ndash;&gt;-->
+<!--</archetype>-->

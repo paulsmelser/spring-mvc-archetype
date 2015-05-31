@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS Control (
+
+  Id BIGINT,
+  line  VARCHAR(100)
+);

@@ -8,7 +8,7 @@
         <title>Home</title>
     </head>
     <body>
-        <h${version}>Hello World!</h${version}>
+        <h1>Hello World!</h1>
         <p>This is the homepage!</p>
     </body>
 </html>
